@@ -5,8 +5,10 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-
 from keras.utils import to_categorical
+
+from IPython.display import SVG
+from keras.utils.vis_utils import model_to_dot
 
 from constants import *
 
